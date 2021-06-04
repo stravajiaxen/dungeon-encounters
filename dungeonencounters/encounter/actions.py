@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from dungeonsheets.encounter.events import Event
+from dungeonencounters.encounter.events import Event
 
 
 class Executable(ABC):

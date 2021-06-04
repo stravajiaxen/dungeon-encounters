@@ -1,9 +1,9 @@
-from dungeonsheets.conditions.conditions import Blinded, Charmed
-from dungeonsheets.encounter.actions import Attack
+from dungeonencounters.conditions.conditions import Blinded, Charmed
+from dungeonencounters.encounter.actions import Attack
 from dungeonsheets.stats import Ability, ArmorClass, Initiative, Speed, Skill, \
     NumericalInitiative
 from abc import ABC
-from dungeonsheets.dice import roll
+from dungeonencounters.dice import roll
 
 
 class Agent(ABC):

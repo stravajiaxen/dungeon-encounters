@@ -1,16 +1,14 @@
-#!/usr/bin/env python
-
 from unittest import TestCase, skip
 
+import dungeonsheets
 from dungeonsheets.armor import ChainShirt
 from dungeonsheets.character import Character
-from dungeonsheets.encounter import Encounter
-from dungeonsheets.encounter.actions import Attack
-from dungeonsheets.encounter.events import AttackEvent
+from dungeonencounters.encounter import Encounter
+from dungeonencounters.encounter.actions import Attack
+from dungeonencounters.encounter.events import AttackEvent
 from dungeonsheets.monsters import Monster, GiantRat
 from dungeonsheets.stats import Ability
 from dungeonsheets.dice import roll
-
 
 class TestEncounter(TestCase):
     """Tests for features and feature-related activities."""

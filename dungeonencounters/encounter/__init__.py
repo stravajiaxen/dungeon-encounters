@@ -1,1 +1,1 @@
-from dungeonsheets.encounter.encounter import Encounter
+from dungeonencounters.encounter.encounter import Encounter
